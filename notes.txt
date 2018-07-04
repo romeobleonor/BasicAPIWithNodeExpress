@@ -1,0 +1,68 @@
+# Introduction to build an api with node and express
+    - You should be abel to build backend with proper endpoints needed for any type of application
+    - create collection, models and schema and proper endpoints
+    - Learn to you loopBack for creating full-fledge APIs w/ tons of options and tokens for security measure
+    - look jwt.io
+# explore the tools used for testing our API 
+# setup stage for API with our initial express server and routing endpoints to add, update and delete
+and pull data from our CRM backend
+# MongoDB to persist data, Babel to transpile es6 to javascript that browser can understand
+# Revisit - Emmanual Henri - React Navite course and GraphQL Relay
+# Customer relationshp management - CRM - practices, strategies and technology to manage and anaylze Customer
+interaction and data throughout the customer lifecycle
+# We need to be able to test and use the API endpoints we'll creacte in this course
+# Postman allows you to do is to grab the API endpoints and make any api calls
+# 1: Npm init
+# 2: npm i express --save
+# 3: npm i MongoDB
+
+# use Mongoose to  simply som of the initial code
+# 4: install MongoDB #5 install mongoose (libraray to help us with modeling our database and take advantage 
+some of the built in tools to help us with validation, business logic, hooks etc cetera.)
+
+# 6: npm i --save nodemon #7 npm i --save-dev babel-cli babel-preset-es2015 babel-preset-stage-0
+# 8: create .babelrc
+
+# basic of Restful API - learning restful api   
+    - way to transct w/ backend using http transactions - we use a seriese of calls / method like 
+    Get, Post, Put and delete with html address to transact with data
+    - when the client make a request or needs to do transcation w/ a back end, it makes a call using 
+
+# 9: npm i --save body-parser 
+# 10: import express, create an app and port variable, main route handler and app listen
+# 11: configure package json file - "start": "nodemon ./index.js --exec babel-node -e js"
+# src - controllers (sit all the business logic of our server) and models (where we create our schema or mongodb) 
+and routes (where we create our API end points)
+
+# Basic routing
+    You can call a route ang go to specific page or you can also use routes to define your endpoints
+# What is the middleware? are simply functions that have access to the request and response object and our express
+obligation. - Express function that have acccess to the req/res object and act on them
+
+# MongoDB
+    - one big object containing collection
+    - collection have documents or object
+    - document looks like json object
+    - mongoose allows us to set a schema for a collection and predefine each key-value pair as type
+    - robomongodb install
+    - body parser - allows you to send data or object through http post, through our database
+
+# schema    
+    - before we start adding operations to our db and the corresponding end points create schema
+    - 
+# serve static files or assest in express
+
+# Koajs and swagger and loopback
+
+
+# How to basic api with node and express
+# First we explore the tools used for testing our API calls - Postman
+# Second set up the configuration for our api with our initial express server and routing endpoints
+    - create an init, install express and mongodb, 
+    - install mongoose to help us modeling our data
+    - install nodemone to relaod the server automatically
+    - install babel to use ES6 in our index.js - for instance rather than using require we use import
+        - create babelrc to predefine our preset
+        - configure package json file - "start": "nodemon ./index.js --exec babel-node -e js"
+    - install body-parser
+    - import express, create an app and port variable, main route handler and app listen
