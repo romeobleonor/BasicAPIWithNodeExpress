@@ -66,3 +66,18 @@ obligation. - Express function that have acccess to the req/res object and act o
         - configure package json file - "start": "nodemon ./index.js --exec babel-node -e js"
     - install body-parser
     - import express, create an app and port variable, main route handler and app listen
+
+
+    # How to push local repo to remote github
+        - Create a repo in your github
+        - then you can creaate a new repo in your local machine
+            - echo "# basicApiwithNodeExpress" >> README.md // this create a file and add the text
+            - git init
+            - git add README.md
+            - git commit -m 'first commit'
+            - git remote add origin https://github.com/remeobleonor/basicApiwithNodeExpress
+            - git push -u origin master
+
+
+Cover the new feature of async/await and greater focus on introuducing popular web development concept
+chat applicaiton from start to finish
