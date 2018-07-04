@@ -25,6 +25,7 @@ const routes = (app) => {
 
     // delete
     .delete(deleteContact)
+    
 }
 
 
